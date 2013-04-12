@@ -1,0 +1,13 @@
+Source: tlglogviewer
+Section: unknown
+Priority: extra
+Maintainer: breeze <ilya.korolev@teligent.ru>
+Build-Depends: debhelper (>= 7.0.50~), libqt4-dev, libqxt-dev, libboost-dev
+Standards-Version: 3.8.4
+Homepage: www.teligent.ru
+Vcs-Git: git://git.debian.org/collab-maint/tlglogviewer.git
+
+Package: tlglogviewer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqtgui4, libqxt-gui0
+Description: utility to view tlglog files

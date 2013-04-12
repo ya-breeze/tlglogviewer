@@ -1,0 +1,12 @@
+*.user
+Makefile
+*.o
+moc_*
+ui_*
+src/tlglogviewer
+build-stamp
+builddir/
+debian/files
+debian/tlglogviewer.debhelper.log
+debian/tlglogviewer.substvars
+debian/tlglogviewer/

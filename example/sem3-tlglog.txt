@@ -1,0 +1,2515 @@
+
+  CHECK TLG STARTED!
+
+
+  CHECK TLG LOG FILES STARTED!
+
+*******************************
+CHECKING FILE /var/opt/p90/log/TPTF/tlg_log.15 
+*******************************
+
+TYPE          : CRD 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SAIA
+RET FUNC      : FF84
+CLASS         : 0xb1
+TRANSNUMB     : 34970
+COMPTRANSNUMB : 0
+DATALEN       : 993 
+ISSUED        : Thu Apr 11 01:58:37 2013
+COMPLETED     : Thu Apr 11 01:58:37 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                EXECNAME = OPTIONS
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 101
+                REQ_PORT = 5060
+                FROM_IP = 10.197.0.57
+                FROM_TAG = 8B046B58-2108
+                TRANS_ID = 202867
+                MSG_ID = 0
+                CONT1_USER = 10.190.35.4
+                REQ_DOM = trunk.multifon.ru
+                SESSION = 4191404
+                USER_AGENT = Cisco-SIPGateway/IOS-12.x
+                REQ_USER = trunk.multifon.ru
+                TO_USER = 
+                TO_TAG = 89983246313536419B310600
+                CONT1_P1N = transport
+                MSG_TYPE = OPTION
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                APPL = CALL
+                FROM_USER = 
+                TO_DOM = trunk.multifon.ru
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:@10.197.0.57
+                DIALOG = 4850538
+                VERSION = 0001
+                X_CLIENTIP = 10.197.0.57:5060
+                CALL_ID = A19E2CCF-A16011E2-8545F336-588F645@10.197.0.57
+                CONT1_TYPE = SIP_URI
+                  TO = sip:@trunk.multifon.ru
+                STATUS = 200
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F1
+CLASS         : 0xb1
+TRANSNUMB     : 13222
+COMPTRANSNUMB : 0
+DATALEN       : 155 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : SESSION = 5191567
+                QNAME = IS_IT_TRUNK
+                  IP = 95.26.89.177
+                PORT = 5060
+                RESULT = 
+                QROWS = 0
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCE8
+CLASS         : 0xb1
+TRANSNUMB     : 51880
+COMPTRANSNUMB : 0
+DATALEN       : 502 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : SESSION = 5191567
+                EXECNAME = CHECK_TRUSTINESS
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 89262164700
+                TO_HOST = multifon.ru
+                  TO = sip:89262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                IS_TRUSTED = 0
+                STATUS = 200
+               
+TYPE          : CRD 
+DEST          : DIGA
+DEST FUNC     : NONC
+RET DEST      : SCCA
+RET FUNC      : FCE9
+CLASS         : 0xb1
+TRANSNUMB     : 48832
+COMPTRANSNUMB : 0
+DATALEN       : 299 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : SESSION = 5191567
+                METHOD = 1
+                WA_SCHEME = Digest
+                WA_NONCE = MTM2NTYzMTEyMToUoU3eFqxmBZ6F6ndoWdXs
+                WA_OPAQ = MTM2NTYzMTEyMToUoU3eFqxmBZ6F6ndoWdXs
+                WA_ALG = md5
+                WA_REALM = BREDBAND
+                WA_QOP = auth
+                SESSION = 5191567
+                METHOD = 1
+                STATUS = 407
+               
+TYPE          : CRD 
+DEST          : SCCA
+DEST FUNC     : CRED
+RET DEST      : SAIB
+RET FUNC      : 0067
+CLASS         : 0xb1
+TRANSNUMB     : 1017
+COMPTRANSNUMB : 0
+RSN           : 1
+DATALEN       : 1762 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                ROU1_PORT = 5060
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 20
+                ROU1_DOM = trunk.multifon.ru
+                FROM_TAG = 416375303
+                TRANS_ID = 71796
+                ROU1_USER = 89262164700
+                MSG_ID = 0
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700-ecopvfp03hnj0
+                REQ_DOM = multifon.ru
+                SESSION = 5191567
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                REQ_USER = 89262164700
+                TO_USER = 89262164700
+                TO_TAG = DB8732463135364107330600
+                CONT1_P1N = transport
+                MSG_TYPE = INVITE
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                ROU1_URI = 89262164700@trunk.multifon.ru:5060
+                SUBJECT = Phone call
+                FROM_USER = 79262164700
+                TO_DOM = multifon.ru
+                 SDP = v=0
+o=79262164700 3068 3068 IN IP4 95.26.89.177
+s=Talk
+c=IN IP4 10.177.94.4
+t=0 0
+m=audio 9602 RTP/AVP 112 111 110 3 0 8 101
+a=rtpmap:112 speex/32000
+a=fmtp:112 vbr=on
+a=rtpmap:111 speex/16000
+a=fmtp:111 vbr=on
+a=rtpmap:110 speex/8000
+a=fmtp:110 vbr=on
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11
+
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:79262164700@multifon.ru
+                ROU1_P1N = lr
+                DIALOG = 5849217
+                ROU1_TYPE = SIP_URI
+                ROU1_P1V = 
+                ALLOW = INVITE,ACK,CANCEL,OPTIONS,BYE,REFER,NOTIFY,MESSAGE,SUBSCRIBE,INFO
+                X_CLIENTIP = 95.26.89.177:5060
+                CALL_ID = 1485772209
+                CONT1_TYPE = SIP_URI
+                  TO = sip:89262164700@multifon.ru
+                AZ_SCHEME = Digest
+                AZ_NONCE = MTM2NTYzMTEyMToUoU3eFqxmBZ6F6ndoWdXs
+                AZ_OPAQ = MTM2NTYzMTEyMToUoU3eFqxmBZ6F6ndoWdXs
+                AZ_ALG = md5
+                AZ_REALM = BREDBAND
+                AZ_QOP = auth
+                STATUS = 407
+                ERROR_TXT = Need auth
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCEA
+CLASS         : 0xb1
+TRANSNUMB     : 41949
+COMPTRANSNUMB : 0
+DATALEN       : 536 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : SESSION = 5191567
+                EXECNAME = CANCEL_CALL
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 89262164700
+                TO_HOST = multifon.ru
+                  TO = sip:89262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                TS_INVITE = 1365631121
+                TS_CANCEL = 1365631121
+                STATE = CLOSED
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCEB
+CLASS         : 0xb1
+TRANSNUMB     : 4219
+COMPTRANSNUMB : 0
+DATALEN       : 651 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : SESSION = 5191568
+                EXECNAME = ORIGINATE
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 79262164700
+                TO_HOST = multifon.ru
+                  TO = sip:79262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 10.177.141.120
+                SRC_PORT = 5081
+                INROU_P1N = lr
+                INROU_P1V = 
+                INROU_P2N = X-CallType
+                INROU_P2V = SIPOUT
+                SIPOUT = 1
+                SKIP_CDR = 1
+                SKIP_ALIVE = 1
+                STATUS = 200
+                ERROR_TXT = Call from IMSSF
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F2
+CLASS         : 0xb1
+TRANSNUMB     : 1774
+COMPTRANSNUMB : 0
+DATALEN       : 1888 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : QNAME = GET_NUMBER_ADDRESSES
+                SESSION = 5191568
+                R1COL01 = 1
+                R1COL02 = %
+                R2COL01 = 2
+                R2COL02 = %
+                R3COL01 = 4
+                R3COL02 = %
+                R4COL01 = 5
+                R4COL02 = %
+                R5COL01 = 10
+                R5COL02 = %
+                R6COL01 = 12
+                R6COL02 = %
+                R7COL01 = 14
+                R7COL02 = %
+                R8COL01 = 22
+                R8COL02 = %
+                R9COL01 = 23
+                R9COL02 = %
+                R10COL01 = 25
+                R10COL02 = %
+                R11COL01 = 26
+                R11COL02 = %
+                R12COL01 = 29
+                R12COL02 = %
+                R13COL01 = 30
+                R13COL02 = %
+                R14COL01 = 32
+                R14COL02 = %
+                R15COL01 = 42
+                R15COL02 = 79261633596
+                R16COL01 = 45
+                R16COL02 = 79265105227
+                R17COL01 = 47
+                R17COL02 = 79262082196
+                R18COL01 = 48
+                R18COL02 = 79262001892
+                R19COL01 = 49
+                R19COL02 = 79265105300
+                R20COL01 = 52
+                R20COL02 = %
+                R21COL01 = 53
+                R21COL02 = 79281829983
+                R22COL01 = 55
+                R22COL02 = 79283809999
+                R23COL01 = 56
+                R23COL02 = 79281256877
+                R24COL01 = 57
+                R24COL02 = 3707%
+                R25COL01 = 58
+                R25COL02 = 3708%
+                R26COL01 = 61
+                R26COL02 = 7800550%
+                R27COL01 = 63
+                R27COL02 = 7800444%
+                R28COL01 = 64
+                R28COL02 = 8800444%
+                R29COL01 = 65
+                R29COL02 = 8800550%
+                R30COL01 = 66
+                R30COL02 = 7800550%
+                R31COL01 = 67
+                R31COL02 = 7800444%
+                R32COL01 = 68
+                R32COL02 = 8800550%
+                R33COL01 = 69
+                R33COL02 = 8800444%
+                R34COL01 = 70
+                R34COL02 = 252%
+                RESULT = 1|%|
+2|%|
+4|%|
+5|%|
+10|%|
+12|%|
+14|%|
+22|%|
+23|%|
+25|%|
+26|%|
+29|%|
+30|%|
+32|%|
+42|79261633596|
+45|79265105227|
+47|79262082196|
+48|79262001892|
+49|79265105300|
+52|%|
+53|79281829983|
+55|79283809999|
+56|79281256877|
+57|3707%|
+58|3708%|
+61|7800550%|
+63|7800444%|
+64|8800444%|
+65|8800550%|
+66|7800550%|
+67|7800444%|
+68|8800550%|
+69|8800444%|
+70|252%|
+
+                QROWS = 34
+                COLUMNS = id|range
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F3
+CLASS         : 0xb1
+TRANSNUMB     : 29993
+COMPTRANSNUMB : 0
+DATALEN       : 2421 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : QNAME = GET_RELATIONS
+                SESSION = 5191568
+                R1COL01 = 1
+                R1COL02 = 1
+                R1COL03 = 0
+                R2COL01 = 2
+                R2COL02 = 2
+                R2COL03 = 0
+                R3COL01 = 4
+                R3COL02 = 4
+                R3COL03 = 3
+                R4COL01 = 5
+                R4COL02 = 5
+                R4COL03 = 4
+                R5COL01 = 10
+                R5COL02 = 8
+                R5COL03 = 5
+                R6COL01 = 12
+                R6COL02 = 8
+                R6COL03 = 6
+                R7COL01 = 14
+                R7COL02 = 8
+                R7COL03 = 2
+                R8COL01 = 23
+                R8COL02 = 8
+                R8COL03 = 7
+                R9COL01 = 26
+                R9COL02 = 9
+                R9COL03 = 5
+                R10COL01 = 29
+                R10COL02 = 9
+                R10COL03 = 6
+                R11COL01 = 30
+                R11COL02 = 9
+                R11COL03 = 2
+                R12COL01 = 32
+                R12COL02 = 9
+                R12COL03 = 7
+                R13COL01 = 42
+                R13COL02 = 19
+                R13COL03 = 1
+                R14COL01 = 45
+                R14COL02 = 19
+                R14COL03 = 1
+                R15COL01 = 47
+                R15COL02 = 19
+                R15COL03 = 1
+                R16COL01 = 48
+                R16COL02 = 19
+                R16COL03 = 1
+                R17COL01 = 49
+                R17COL02 = 19
+                R17COL03 = 1
+                R18COL01 = 52
+                R18COL02 = 19
+                R18COL03 = 1
+                R19COL01 = 53
+                R19COL02 = 23
+                R19COL03 = 0
+                R20COL01 = 55
+                R20COL02 = 23
+                R20COL03 = 0
+                R21COL01 = 56
+                R21COL02 = 23
+                R21COL03 = 0
+                R22COL01 = 57
+                R22COL02 = 25
+                R22COL03 = 0
+                R23COL01 = 58
+                R23COL02 = 25
+                R23COL03 = 0
+                R24COL01 = 61
+                R24COL02 = 26
+                R24COL03 = 0
+                R25COL01 = 63
+                R25COL02 = 26
+                R25COL03 = 0
+                R26COL01 = 64
+                R26COL02 = 26
+                R26COL03 = 0
+                R27COL01 = 65
+                R27COL02 = 26
+                R27COL03 = 0
+                R28COL01 = 66
+                R28COL02 = 27
+                R28COL03 = 0
+                R29COL01 = 67
+                R29COL02 = 27
+                R29COL03 = 0
+                R30COL01 = 68
+                R30COL02 = 27
+                R30COL03 = 0
+                R31COL01 = 69
+                R31COL02 = 27
+                R31COL03 = 0
+                R32COL01 = 70
+                R32COL02 = 25
+                R32COL03 = 0
+                R33COL01 = 1
+                R33COL02 = 29
+                R33COL03 = 1001
+                R34COL01 = 1
+                R34COL02 = 30
+                R34COL03 = 1002
+                R35COL01 = 1
+                R35COL02 = 31
+                R35COL03 = 1003
+                RESULT = 1|1|0|
+2|2|0|
+4|4|3|
+5|5|4|
+10|8|5|
+12|8|6|
+14|8|2|
+23|8|7|
+26|9|5|
+29|9|6|
+30|9|2|
+32|9|7|
+42|19|1|
+45|19|1|
+47|19|1|
+48|19|1|
+49|19|1|
+52|19|1|
+53|23|0|
+55|23|0|
+56|23|0|
+57|25|0|
+58|25|0|
+61|26|0|
+63|26|0|
+64|26|0|
+65|26|0|
+66|27|0|
+67|27|0|
+68|27|0|
+69|27|0|
+70|25|0|
+1|29|1001|
+1|30|1002|
+1|31|1003|
+
+                QROWS = 35
+                COLUMNS = numberAddressId|terminationId|requestType
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F4
+CLASS         : 0xb1
+TRANSNUMB     : 67368
+COMPTRANSNUMB : 0
+DATALEN       : 4356 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : QNAME = GET_TERMINATIONS
+                SESSION = 5191568
+                R1COL01 = 1
+                R1COL02 = gw.1
+                R1COL03 = 10.190.35.17
+                R1COL04 = 5070
+                R1COL05 = 1
+                R2COL01 = 2
+                R2COL02 = gw.2
+                R2COL03 = 10.190.35.18
+                R2COL04 = 5070
+                R2COL05 = 1
+                R3COL01 = 3
+                R3COL02 = imps.reg
+                R3COL03 = 10.77.73.66
+                R3COL04 = 5070
+                R3COL05 = 1
+                R4COL01 = 4
+                R4COL02 = sms termination
+                R4COL03 = 10.77.164.18
+                R4COL04 = 5071
+                R4COL05 = 1
+                R5COL01 = 5
+                R5COL02 = mms termination
+                R5COL03 = 10.77.164.18
+                R5COL04 = 5072
+                R5COL05 = 1
+                R6COL01 = 6
+                R6COL02 = imps.im
+                R6COL03 = 10.77.73.66
+                R6COL04 = 5060
+                R6COL05 = 1
+                R7COL01 = 7
+                R7COL02 = imps.presence
+                R7COL03 = 10.77.73.66
+                R7COL04 = 5060
+                R7COL05 = 1
+                R8COL01 = 8
+                R8COL02 = imps.im.1
+                R8COL03 = 10.77.74.3
+                R8COL04 = 5060
+                R8COL05 = 1
+                R9COL01 = 9
+                R9COL02 = imps.im.2
+                R9COL03 = 10.77.74.6
+                R9COL04 = 5060
+                R9COL05 = 1
+                R10COL01 = 11
+                R10COL02 = imps.reg.2
+                R10COL03 = 10.77.74.6
+                R10COL04 = 5060
+                R10COL05 = 1
+                R11COL01 = 13
+                R11COL02 = imps.pres.2
+                R11COL03 = 10.77.74.6
+                R11COL04 = 5060
+                R11COL05 = 1
+                R12COL01 = 14
+                R12COL02 = Megafon SBC
+                R12COL03 = 10.77.70.75
+                R12COL04 = 5060
+                R12COL05 = 1
+                R13COL01 = 15
+                R13COL02 = not exited sip for tests
+                R13COL03 = 10.77.5.59
+                R13COL04 = 5050
+                R13COL05 = 1
+                R14COL01 = 17
+                R14COL02 = imps.reg.1
+                R14COL03 = 10.77.74.3
+                R14COL04 = 5060
+                R14COL05 = 1
+                R15COL01 = 18
+                R15COL02 = imps.pres.1
+                R15COL03 = 10.77.74.3
+                R15COL04 = 5060
+                R15COL05 = 1
+                R16COL01 = 19
+                R16COL02 = protei
+                R16COL03 = 10.190.35.33
+                R16COL04 = 5060
+                R16COL05 = 1
+                R17COL01 = 20
+                R17COL02 = VGW
+                R17COL03 = 10.190.3.129
+                R17COL04 = 5060
+                R17COL05 = 1
+                R18COL01 = 21
+                R18COL02 = VGW
+                R18COL03 = 10.190.3.131
+                R18COL04 = 5060
+                R18COL05 = 1
+                R19COL01 = 23
+                R19COL02 = sbc.reg.kavkaz.1
+                R19COL03 = 10.190.80.100
+                R19COL04 = 5060
+                R19COL05 = 1
+                R20COL01 = 24
+                R20COL02 = sbc.reg.kavkaz.1
+                R20COL03 = 10.190.81.100
+                R20COL04 = 5060
+                R20COL05 = 1
+                R21COL01 = 25
+                R21COL02 = fake route for termination
+                R21COL03 = 192.168.217.1
+                R21COL04 = 5060
+                R21COL05 = 1
+                R22COL01 = 26
+                R22COL02 = ff.1
+                R22COL03 = 10.177.250.73
+                R22COL04 = 5060
+                R22COL05 = 0
+                R23COL01 = 27
+                R23COL02 = ff.2
+                R23COL03 = 10.177.250.73
+                R23COL04 = 5060
+                R23COL05 = 0
+                R24COL01 = 29
+                R24COL02 = CSN presence
+                R24COL03 = 10.177.141.67
+                R24COL04 = 5060
+                R24COL05 = 1
+                R25COL01 = 30
+                R25COL02 = bypass.sms
+                R25COL03 = 10.177.141.120
+                R25COL04 = 5071
+                R25COL05 = 1
+                R26COL01 = 31
+                R26COL02 = bypass.mms
+                R26COL03 = 10.177.141.120
+                R26COL04 = 5072
+                R26COL05 = 1
+                R27COL01 = 33
+                R27COL02 = sipout to caucaso
+                R27COL03 = 10.61.151.6
+                R27COL04 = 5060
+                R27COL05 = 1
+                R28COL01 = 35
+                R28COL02 = sipout to caucaso
+                R28COL03 = 10.61.151.8
+                R28COL04 = 5060
+                R28COL05 = 1
+                RESULT = 1|gw.1|10.190.35.17|5070|1|
+2|gw.2|10.190.35.18|5070|1|
+3|imps.reg|10.77.73.66|5070|1|
+4|sms termination|10.77.164.18|5071|1|
+5|mms termination|10.77.164.18|5072|1|
+6|imps.im|10.77.73.66|5060|1|
+7|imps.presence|10.77.73.66|5060|1|
+8|imps.im.1|10.77.74.3|5060|1|
+9|imps.im.2|10.77.74.6|5060|1|
+11|imps.reg.2|10.77.74.6|5060|1|
+13|imps.pres.2|10.77.74.6|5060|1|
+14|Megafon SBC|10.77.70.75|5060|1|
+15|not exited sip for tests|10.77.5.59|5050|1|
+17|imps.reg.1|10.77.74.3|5060|1|
+18|imps.pres.1|10.77.74.3|5060|1|
+19|protei|10.190.35.33|5060|1|
+20|VGW|10.190.3.129|5060|1|
+21|VGW|10.190.3.131|5060|1|
+23|sbc.reg.kavkaz.1|10.190.80.100|5060|1|
+24|sbc.reg.kavkaz.1|10.190.81.100|5060|1|
+25|fake route for termination|192.168.217.1|5060|1|
+26|ff.1|10.177.250.73|5060|0|
+27|ff.2|10.177.250.73|5060|0|
+29|CSN presence|10.177.141.67|5060|1|
+30|bypass.sms|10.177.141.120|5071|1|
+31|bypass.mms|10.177.141.120|5072|1|
+33|sipout to caucaso|10.61.151.6|5060|1|
+35|sipout to caucaso|10.61.151.8|5060|1|
+
+                QROWS = 28
+                COLUMNS = id|description|dest|port|shouldHandleAsSipIn
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCEC
+CLASS         : 0xb1
+TRANSNUMB     : 47915
+COMPTRANSNUMB : 0
+DATALEN       : 635 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : SESSION = 5191568
+                EXECNAME = TERMINATE
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 79262164700
+                TO_HOST = multifon.ru
+                  TO = sip:79262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 10.177.141.120
+                SRC_PORT = 5081
+                SIPOUT = 1
+                SKIP_CDR = 1
+                TO_COUNT = 1
+                TO1_TYPE = SIP_URI
+                TO1_USER = 79262164700
+                TO1_HOST = 10.190.35.18
+                TO1_PORT = 5070
+                TO1_PROTO = UDP
+               
+TYPE          : CRD 
+DEST          : SCCA
+DEST FUNC     : CRED
+RET DEST      : SAIB
+RET FUNC      : 0068
+CLASS         : 0xb1
+TRANSNUMB     : 58637
+COMPTRANSNUMB : 0
+DATALEN       : 1668 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : REQ_TYPE = SIP_URI
+                ROU1_P2V = SIPOUT
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                CONT1_PORT = 5081
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 180
+                CSEQ_VAL = 1
+                REQ_PORT = 5081
+                TO_PORT = 5060
+                PAS_TYPE = SIP_URI
+                ROU1_DOM = 10.177.141.120
+                FROM_TAG = 7AEA32463135364128330600
+                TRANS_ID = 71798
+                ROU1_USER = 79262164700
+                PAS_DOM = multifon.ru
+                PAS_PORT = 5060
+                MSG_ID = 0
+                REQ_IP = 10.177.141.120
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700
+                SESSION = 5191568
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                REQ_USER = 10.177.141.120
+                TO_USER = 79262164700
+                EXPIRES = 180
+                TO_TAG = 844D32463135364126330600
+                MSG_TYPE = INVITE
+                CONT1_IP = 10.177.141.120
+                ROU1_URI = 79262164700@10.177.141.120
+                SUBJECT = Phone call
+                FROM_USER = 79262164700
+                TO_DOM = multifon.ru
+                 SDP = v=0
+o=79262164700 3068 3068 IN IP4 95.26.89.177
+s=Talk
+c=IN IP4 10.177.94.4
+t=0 0
+m=audio 9602 RTP/AVP 112 111 110 3 0 8 101
+a=rtpmap:112 speex/32000
+a=fmtp:112 vbr=on
+a=rtpmap:111 speex/16000
+a=fmtp:111 vbr=on
+a=rtpmap:110 speex/8000
+a=fmtp:110 vbr=on
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11
+
+                TPT_PROT = TCP
+                PAS_USER = 79262164700
+                VIA1_PORT = 5081
+                FROM = sip:79262164700@multifon.ru
+                ROU1_P1N = lr
+                DIALOG = 5849218
+                ROU1_TYPE = SIP_URI
+                ROU1_P1V = 
+                ALLOW = INVITE,ACK,CANCEL,OPTIONS,BYE,REFER,NOTIFY,MESSAGE,SUBSCRIBE,INFO
+                CALL_ID = 02037EA4E481400000000225@SFESIP3-id3-ext
+                CONT1_TYPE = SIP_URI
+                ROU1_P2N = X-CallType
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : CRED
+RET DEST      : SCCA
+RET FUNC      : FCED
+CLASS         : 0xb1
+TRANSNUMB     : 64975
+COMPTRANSNUMB : 0
+DATALEN       : 620 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:41 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                ROU1_P2V = UDP
+                ROU1_PORT = 5070
+                DONT_COPY = Diversion,X-ClientIP
+                FROM_TYPE = SIP_URI
+                REQ_PORT = 5070
+                FROM_IP = multifon.ru
+                TO_IP = multifon.ru
+                TRANS_ID = 2147483649
+                ROU1_USER = 79262164700
+                REQ_IP = 10.190.35.18
+                SESSION = 5191568
+                REQ_USER = 79262164700
+                TO_USER = 79262164700
+                REF_MSG = 0
+                REF_DLG = 5849218
+                FROM_USER = 79262164700
+                TPT_PROT = UDP
+                ROU1_IP = 10.190.35.18
+                ROU1_P1N = lr
+                DIALOG = 5849219
+                ROU1_TYPE = SIP_URI
+                ROU1_P1V = 
+                ROU1_P2N = transport
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FCEE
+CLASS         : 0xb1
+TRANSNUMB     : 18921
+COMPTRANSNUMB : 0
+DATALEN       : 1082 
+ISSUED        : Thu Apr 11 01:58:41 2013
+COMPLETED     : Thu Apr 11 01:58:44 2013
+FICS          : TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                S_DIALOG = 5849219
+                CONT1_PORT = 5070
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                CSEQ_VAL = 1
+                TO_PORT = 5060
+                STATUS = 183
+                FROM_TAG = 0FF332463135364129330600
+                TRANS_ID = 2147483649
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700
+                SESSION = 5191568
+                TO_USER = 79262164700
+                TO_TAG = a94c095b773be1dd6e8d668a785a9c84053a7807
+                CONT1_IP = 10.190.35.18
+                S_MSG_ID = 0
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                 SDP = v=0
+o=Dialogic_SDP 17884886 0 IN IP4 10.190.35.18
+s=Dialogic-SIP
+c=IN IP4 10.177.94.18
+t=0 0
+m=audio 9116 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=silenceSupp:off - - - -
+a=ptime:20
+
+                S_MSG_TYPE = INVITE_PROV_RESP
+                VIA1_PORT = 5060
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                ALLOW = OPTIONS,CANCEL,UPDATE
+                CALL_ID = 02037EA4E481400000000469@SFESIP3-id1-ext
+                CONT1_TYPE = SIP_URI
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FCEF
+CLASS         : 0xb1
+TRANSNUMB     : 52700
+COMPTRANSNUMB : 0
+DATALEN       : 143 
+ISSUED        : Thu Apr 11 01:58:44 2013
+COMPLETED     : Thu Apr 11 01:58:44 2013
+FICS          : DONT_COPY = Allow
+                SESSION = 5191568
+                REF_MSG = 0
+                REF_DLG = 5849219
+                DIALOG = 5849218
+                ALLOW = OPTIONS,CANCEL
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FCF0
+CLASS         : 0xb1
+TRANSNUMB     : 64354
+COMPTRANSNUMB : 0
+DATALEN       : 826 
+ISSUED        : Thu Apr 11 01:58:44 2013
+COMPLETED     : Thu Apr 11 01:58:44 2013
+FICS          : TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                S_DIALOG = 5849219
+                CONT1_PORT = 5070
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                CSEQ_VAL = 1
+                TO_PORT = 5060
+                STATUS = 180
+                FROM_TAG = 0FF332463135364129330600
+                TRANS_ID = 2147483649
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700
+                SESSION = 5191568
+                TO_USER = 79262164700
+                TO_TAG = a94c095b773be1dd6e8d668a785a9c84053a7807
+                CONT1_IP = 10.190.35.18
+                S_MSG_ID = 1
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                S_MSG_TYPE = INVITE_PROV_RESP
+                VIA1_PORT = 5060
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                ALLOW = OPTIONS,CANCEL,UPDATE
+                CALL_ID = 02037EA4E481400000000469@SFESIP3-id1-ext
+                CONT1_TYPE = SIP_URI
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FCF1
+CLASS         : 0xb1
+TRANSNUMB     : 25827
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:58:44 2013
+COMPLETED     : Thu Apr 11 01:58:44 2013
+FICS          : SESSION = 5191568
+                REF_MSG = 1
+                REF_DLG = 5849219
+                DIALOG = 5849218
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FCF2
+CLASS         : 0xb1
+TRANSNUMB     : 1051
+COMPTRANSNUMB : 0
+DATALEN       : 1277 
+ISSUED        : Thu Apr 11 01:58:44 2013
+COMPLETED     : Thu Apr 11 01:58:48 2013
+FICS          : ACCEPT1 = application/sdp
+                ACCEPT2 = application/dtmf-relay
+                ACCEPT3 = text/plain
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                S_DIALOG = 5849219
+                CONT1_PORT = 5070
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                CSEQ_VAL = 1
+                SUPPORTED = 100rel,path,replaces,tdialog
+                TO_PORT = 5060
+                STATUS = 200
+                FROM_TAG = 0FF332463135364129330600
+                TRANS_ID = 2147483649
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700
+                SESSION = 5191568
+                TO_USER = 79262164700
+                TO_TAG = a94c095b773be1dd6e8d668a785a9c84053a7807
+                CONT1_IP = 10.190.35.18
+                S_MSG_ID = 2
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                 SDP = v=0
+o=Dialogic_SDP 17884886 0 IN IP4 10.190.35.18
+s=Dialogic-SIP
+c=IN IP4 10.177.94.18
+t=0 0
+m=audio 9116 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=silenceSupp:off - - - -
+a=ptime:20
+
+                S_MSG_TYPE = INVITE_2XX
+                VIA1_PORT = 5060
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                ALLOW = PRACK,INVITE,BYE,REGISTER,ACK,OPTIONS,CANCEL,SUBSCRIBE,NOTIFY,INFO,REFER,UPDATE
+                CALL_ID = 02037EA4E481400000000469@SFESIP3-id1-ext
+                CONT1_TYPE = SIP_URI
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F5
+CLASS         : 0xb1
+TRANSNUMB     : 29929
+COMPTRANSNUMB : 0
+DATALEN       : 155 
+ISSUED        : Thu Apr 11 01:58:48 2013
+COMPLETED     : Thu Apr 11 01:58:48 2013
+FICS          : SESSION = 5191568
+                QNAME = IS_IT_TRUNK
+                  IP = 10.190.35.18
+                PORT = 5070
+                RESULT = 
+                QROWS = 0
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCF3
+CLASS         : 0xb1
+TRANSNUMB     : 33915
+COMPTRANSNUMB : 0
+DATALEN       : 706 
+ISSUED        : Thu Apr 11 01:58:48 2013
+COMPLETED     : Thu Apr 11 01:58:48 2013
+FICS          : SESSION = 5191568
+                EXECNAME = BOXIT
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 79262164700
+                TO_HOST = multifon.ru
+                  TO = sip:79262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 10.177.141.120
+                SRC_PORT = 5081
+                SIPOUT = 1
+                SKIP_CDR = 1
+                ANS_TYPE = SIP_URI
+                ANS_USER = 79262164700
+                ANS_HOST = 10.190.35.18
+                ANS_PORT = 5070
+                 ANS = sip:79262164700@10.190.35.18:5070
+                X-TRUNKOUT = -1
+                STATUS = 200
+                ERROR_TXT = Success
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FCF4
+CLASS         : 0xb1
+TRANSNUMB     : 44965
+COMPTRANSNUMB : 0
+DATALEN       : 201 
+ISSUED        : Thu Apr 11 01:58:48 2013
+COMPLETED     : Thu Apr 11 01:58:48 2013
+FICS          : DONT_COPY = Allow
+                SESSION = 5191568
+                REF_MSG = 2
+                REF_DLG = 5849219
+                DIALOG = 5849218
+                ALLOW = PRACK,INVITE,BYE,REGISTER,ACK,OPTIONS,CANCEL,SUBSCRIBE,NOTIFY,INFO,REFER
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FCF5
+CLASS         : 0xb1
+TRANSNUMB     : 36742
+COMPTRANSNUMB : 0
+DATALEN       : 838 
+ISSUED        : Thu Apr 11 01:58:48 2013
+COMPLETED     : Thu Apr 11 01:58:48 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                REQ_P1N = transport
+                S_DIALOG = 5849218
+                REQ_P1V = TCP
+                FROM_TYPE = SIP_URI
+                REQ_PORT = 5060
+                CSEQ_VAL = 1
+                TO_PORT = 5060
+                FROM_TAG = 7AEA32463135364128330600
+                TRANS_ID = 0
+                REQ_IP = 10.177.141.120
+                FROM_DOM = multifon.ru
+                SESSION = 5191568
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                REQ_USER = 79262164700
+                TO_USER = 79262164700
+                TO_TAG = 844D32463135364126330600
+                S_MSG_ID = 1
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                S_MSG_TYPE = ACK
+                VIA1_PORT = 5081
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                X_CLIENTIP = 95.26.89.177:5060
+                CALL_ID = 02037EA4E481400000000225@SFESIP3-id3-ext
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FCF6
+CLASS         : 0xb1
+TRANSNUMB     : 69049
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:58:48 2013
+COMPLETED     : Thu Apr 11 01:58:48 2013
+FICS          : SESSION = 5191568
+                REF_MSG = 1
+                REF_DLG = 5849218
+                DIALOG = 5849219
+               
+TYPE          : CRD 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SAIA
+RET FUNC      : FF85
+CLASS         : 0xb1
+TRANSNUMB     : 42571
+COMPTRANSNUMB : 0
+DATALEN       : 992 
+ISSUED        : Thu Apr 11 01:58:57 2013
+COMPLETED     : Thu Apr 11 01:58:57 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                EXECNAME = OPTIONS
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 101
+                REQ_PORT = 5060
+                FROM_IP = 10.197.0.57
+                FROM_TAG = 8B04B98C-B18
+                TRANS_ID = 202872
+                MSG_ID = 0
+                CONT1_USER = 10.190.35.4
+                REQ_DOM = trunk.multifon.ru
+                SESSION = 4191405
+                USER_AGENT = Cisco-SIPGateway/IOS-12.x
+                REQ_USER = trunk.multifon.ru
+                TO_USER = 
+                TO_TAG = D7E53246313536416D390600
+                CONT1_P1N = transport
+                MSG_TYPE = OPTION
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                APPL = CALL
+                FROM_USER = 
+                TO_DOM = trunk.multifon.ru
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:@10.197.0.57
+                DIALOG = 4850539
+                VERSION = 0001
+                X_CLIENTIP = 10.197.0.57:5060
+                CALL_ID = AD8CCF7B-A16011E2-8547F336-588F645@10.197.0.57
+                CONT1_TYPE = SIP_URI
+                  TO = sip:@trunk.multifon.ru
+                STATUS = 200
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FCF7
+CLASS         : 0xb1
+TRANSNUMB     : 8351
+COMPTRANSNUMB : 0
+DATALEN       : 817 
+ISSUED        : Thu Apr 11 01:58:48 2013
+COMPLETED     : Thu Apr 11 01:58:58 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                REQ_P1N = transport
+                S_DIALOG = 5849218
+                REQ_P1V = TCP
+                FROM_TYPE = SIP_URI
+                REQ_PORT = 5060
+                CSEQ_VAL = 2
+                TO_PORT = 5060
+                CT_SETUP = 3
+                FROM_TAG = 7AEA32463135364128330600
+                TRANS_ID = 268410
+                REQ_IP = 10.177.141.120
+                FROM_DOM = multifon.ru
+                SESSION = 5191568
+                REQ_USER = 79262164700
+                TO_USER = 79262164700
+                TO_TAG = 844D32463135364126330600
+                CT_RINGING = 4
+                CT_ACTIVE = 10
+                S_MSG_ID = 2
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                S_MSG_TYPE = BYE
+                VIA1_PORT = 5081
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                CALL_ID = 02037EA4E481400000000225@SFESIP3-id3-ext
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FCF8
+CLASS         : 0xb1
+TRANSNUMB     : 39789
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:58:58 2013
+COMPLETED     : Thu Apr 11 01:58:58 2013
+FICS          : SESSION = 5191568
+                REF_MSG = 2
+                REF_DLG = 5849218
+                DIALOG = 5849219
+               
+TYPE          : CRD 
+DEST          : SAIB
+DEST FUNC     : DELS
+RET DEST      : SCCA
+RET FUNC      : FCF9
+CLASS         : 0xb1
+TRANSNUMB     : 54812
+COMPTRANSNUMB : 0
+DATALEN       : 42 
+ISSUED        : Thu Apr 11 01:58:58 2013
+COMPLETED     : Thu Apr 11 01:58:58 2013
+FICS          : DLGS_LEFT = 0
+                SESSION = 5191568
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCFA
+CLASS         : 0xb1
+TRANSNUMB     : 66707
+COMPTRANSNUMB : 0
+DATALEN       : 502 
+ISSUED        : Thu Apr 11 01:59:02 2013
+COMPLETED     : Thu Apr 11 01:59:02 2013
+FICS          : SESSION = 5191569
+                EXECNAME = CHECK_TRUSTINESS
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 89262164700
+                TO_HOST = multifon.ru
+                  TO = sip:89262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                IS_TRUSTED = 0
+                STATUS = 200
+               
+TYPE          : CRD 
+DEST          : DIGA
+DEST FUNC     : NONC
+RET DEST      : SCCA
+RET FUNC      : FCFB
+CLASS         : 0xb1
+TRANSNUMB     : 40060
+COMPTRANSNUMB : 0
+DATALEN       : 299 
+ISSUED        : Thu Apr 11 01:59:02 2013
+COMPLETED     : Thu Apr 11 01:59:02 2013
+FICS          : SESSION = 5191569
+                METHOD = 1
+                WA_SCHEME = Digest
+                WA_NONCE = MTM2NTYzMTE0Mjrx5XhCzErIHInZ/DiKxANw
+                WA_OPAQ = MTM2NTYzMTE0Mjrx5XhCzErIHInZ/DiKxANw
+                WA_ALG = md5
+                WA_REALM = BREDBAND
+                WA_QOP = auth
+                SESSION = 5191569
+                METHOD = 1
+                STATUS = 407
+               
+TYPE          : CRD 
+DEST          : SCCA
+DEST FUNC     : CRED
+RET DEST      : SAIB
+RET FUNC      : 0069
+CLASS         : 0xb1
+TRANSNUMB     : 27330
+COMPTRANSNUMB : 0
+RSN           : 1
+DATALEN       : 1759 
+ISSUED        : Thu Apr 11 01:59:02 2013
+COMPLETED     : Thu Apr 11 01:59:02 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                ROU1_PORT = 5060
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 20
+                ROU1_DOM = trunk.multifon.ru
+                FROM_TAG = 1380813138
+                TRANS_ID = 71803
+                ROU1_USER = 89262164700
+                MSG_ID = 0
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700-ecopvfp03hnj0
+                REQ_DOM = multifon.ru
+                SESSION = 5191569
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                REQ_USER = 89262164700
+                TO_USER = 89262164700
+                TO_TAG = 02293246313536413D3B0600
+                CONT1_P1N = transport
+                MSG_TYPE = INVITE
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                ROU1_URI = 89262164700@trunk.multifon.ru:5060
+                SUBJECT = Phone call
+                FROM_USER = 79262164700
+                TO_DOM = multifon.ru
+                 SDP = v=0
+o=79262164700 386 386 IN IP4 95.26.89.177
+s=Talk
+c=IN IP4 10.177.94.4
+t=0 0
+m=audio 8638 RTP/AVP 112 111 110 3 0 8 101
+a=rtpmap:112 speex/32000
+a=fmtp:112 vbr=on
+a=rtpmap:111 speex/16000
+a=fmtp:111 vbr=on
+a=rtpmap:110 speex/8000
+a=fmtp:110 vbr=on
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11
+
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:79262164700@multifon.ru
+                ROU1_P1N = lr
+                DIALOG = 5849220
+                ROU1_TYPE = SIP_URI
+                ROU1_P1V = 
+                ALLOW = INVITE,ACK,CANCEL,OPTIONS,BYE,REFER,NOTIFY,MESSAGE,SUBSCRIBE,INFO
+                X_CLIENTIP = 95.26.89.177:5060
+                CALL_ID = 67368536
+                CONT1_TYPE = SIP_URI
+                  TO = sip:89262164700@multifon.ru
+                AZ_SCHEME = Digest
+                AZ_NONCE = MTM2NTYzMTE0Mjrx5XhCzErIHInZ/DiKxANw
+                AZ_OPAQ = MTM2NTYzMTE0Mjrx5XhCzErIHInZ/DiKxANw
+                AZ_ALG = md5
+                AZ_REALM = BREDBAND
+                AZ_QOP = auth
+                STATUS = 407
+                ERROR_TXT = Need auth
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCFC
+CLASS         : 0xb1
+TRANSNUMB     : 67326
+COMPTRANSNUMB : 0
+DATALEN       : 536 
+ISSUED        : Thu Apr 11 01:59:02 2013
+COMPLETED     : Thu Apr 11 01:59:02 2013
+FICS          : SESSION = 5191569
+                EXECNAME = CANCEL_CALL
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 89262164700
+                TO_HOST = multifon.ru
+                  TO = sip:89262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                TS_INVITE = 1365631142
+                TS_CANCEL = 1365631142
+                STATE = CLOSED
+               
+TYPE          : CRD 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SAIA
+RET FUNC      : FF86
+CLASS         : 0xb1
+TRANSNUMB     : 32327
+COMPTRANSNUMB : 0
+DATALEN       : 993 
+ISSUED        : Thu Apr 11 01:59:17 2013
+COMPLETED     : Thu Apr 11 01:59:17 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                EXECNAME = OPTIONS
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 101
+                REQ_PORT = 5060
+                FROM_IP = 10.197.0.57
+                FROM_TAG = 8B0507C8-2178
+                TRANS_ID = 202879
+                MSG_ID = 0
+                CONT1_USER = 10.190.35.4
+                REQ_DOM = trunk.multifon.ru
+                SESSION = 4191406
+                USER_AGENT = Cisco-SIPGateway/IOS-12.x
+                REQ_USER = trunk.multifon.ru
+                TO_USER = 
+                TO_TAG = F38332463135364141410600
+                CONT1_P1N = transport
+                MSG_TYPE = OPTION
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                APPL = CALL
+                FROM_USER = 
+                TO_DOM = trunk.multifon.ru
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:@10.197.0.57
+                DIALOG = 4850540
+                VERSION = 0001
+                X_CLIENTIP = 10.197.0.57:5060
+                CALL_ID = B97CA9E0-A16011E2-8549F336-588F645@10.197.0.57
+                CONT1_TYPE = SIP_URI
+                  TO = sip:@trunk.multifon.ru
+                STATUS = 200
+               
+TYPE          : CRD 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SAIB
+RET FUNC      : 006A
+CLASS         : 0xb1
+TRANSNUMB     : 57395
+COMPTRANSNUMB : 0
+DATALEN       : 993 
+ISSUED        : Thu Apr 11 01:59:24 2013
+COMPLETED     : Thu Apr 11 01:59:24 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                EXECNAME = OPTIONS
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 101
+                REQ_PORT = 5060
+                FROM_IP = 10.197.0.65
+                FROM_TAG = 4579B6F8-1E0
+                TRANS_ID = 202882
+                MSG_ID = 0
+                CONT1_USER = 10.190.35.4
+                REQ_DOM = trunk.multifon.ru
+                SESSION = 5191570
+                USER_AGENT = Cisco-SIPGateway/IOS-12.x
+                REQ_USER = trunk.multifon.ru
+                TO_USER = 
+                TO_TAG = 0C56324631353641DF430600
+                CONT1_P1N = transport
+                MSG_TYPE = OPTION
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                APPL = CALL
+                FROM_USER = 
+                TO_DOM = trunk.multifon.ru
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:@10.197.0.65
+                DIALOG = 5849221
+                VERSION = 0001
+                X_CLIENTIP = 10.197.0.65:5060
+                CALL_ID = BD7D7DA8-A16011E2-B3CCBD5D-F27949D0@10.197.0.65
+                CONT1_TYPE = SIP_URI
+                  TO = sip:@trunk.multifon.ru
+                STATUS = 200
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F6
+CLASS         : 0xb1
+TRANSNUMB     : 1027
+COMPTRANSNUMB : 0
+DATALEN       : 155 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : SESSION = 4191407
+                QNAME = IS_IT_TRUNK
+                  IP = 95.26.89.177
+                PORT = 5060
+                RESULT = 
+                QROWS = 0
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCFD
+CLASS         : 0xb1
+TRANSNUMB     : 2013
+COMPTRANSNUMB : 0
+DATALEN       : 502 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : SESSION = 4191407
+                EXECNAME = CHECK_TRUSTINESS
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 89262164700
+                TO_HOST = multifon.ru
+                  TO = sip:89262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                IS_TRUSTED = 0
+                STATUS = 200
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F7
+CLASS         : 0xb1
+TRANSNUMB     : 6707
+COMPTRANSNUMB : 0
+DATALEN       : 150 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : SESSION = 4191407
+                QNAME = GET_UA_ID
+                USERAGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                RESULT = 
+                QROWS = 0
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F8
+CLASS         : 0xb1
+TRANSNUMB     : 48351
+COMPTRANSNUMB : 0
+DATALEN       : 683 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : SESSION = 4191407
+                QNAME = GET_SUBSCRIBER_INFORMATION
+                USERNAME = 79262164700
+                R1COL01 = 50
+                R1COL02 = 0
+                R1COL03 = 3
+                R1COL04 = 10.77.164.18:5081
+                R1COL05 = 1
+                R1COL06 = 0
+                R1COL07 = 
+                R1COL08 = 0
+                R1COL09 = 97884
+                R1COL10 = 
+                R1COL11 = 
+                R1COL12 = 
+                R1COL13 = 
+                R1COL14 = 
+                RESULT = 50|0|3|10.77.164.18:5081|1|0||0|97884||||||
+
+                QROWS = 1
+                COLUMNS = availableParallelCalls|registerNotification|availableLocationsCount|appServOrigPrimary|receivingDevice|mode|trunkId|isMvpnEnabled|identityId|cast(INET_NTOA(T.ip) as char)|port|enable_sms|enable_mms|enable_im
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1F9
+CLASS         : 0xb1
+TRANSNUMB     : 19891
+COMPTRANSNUMB : 0
+DATALEN       : 145 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : SESSION = 4191407
+                QNAME = GET_ACTIVE_CALLS
+                FROM = 79262164700
+                RESULT = 
+                QROWS = 0
+                LASTID = 54308655
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1FA
+CLASS         : 0xb1
+TRANSNUMB     : 19735
+COMPTRANSNUMB : 0
+DATALEN       : 203 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : SESSION = 4191407
+                QNAME = INSERT_ACTIVE_CALL
+                GRWSAFFE = 1
+                FROM = 79262164700
+                  TO = 79262164700
+                 NOW = 1365631165
+                RWSAFFE = 1
+                LASTID = 54308663
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FCFF
+CLASS         : 0xb1
+TRANSNUMB     : 10956
+COMPTRANSNUMB : 0
+DATALEN       : 1138 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : SESSION = 4191407
+                EXECNAME = ORIGINATE
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 89262164700
+                TO_HOST = multifon.ru
+                  TO = sip:89262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                INROU_P1N = lr
+                INROU_P1V = 
+                SIPOUT = 1
+                MODE_A = UNLIMITED
+                X-ACTIVEID = 54308663
+                AS_TYPE = SIP_URI
+                AS_USER = 79262164700
+                AS_HOST = 10.177.141.120
+                AS_PORT = 5081
+                ROU1_TYPE = SIP_URI
+                ROU1_USER = 79262164700
+                ROU1_HOST = 10.177.141.120
+                ROU1_PORT = 5081
+                ROU2_TYPE = SIP_URI
+                ROU2_USER = 79262164700
+                ROU2_HOST = 10.177.141.120
+                ROU2_PORT = 5060
+                ROU1_P1N = lr
+                ROU1_P1V = 
+                ROU2_P1N = X-CallType
+                ROU2_P1V = SIPOUT
+                ROU2_P2N = lr
+                ROU2_P2V = 
+                STATUS = 200
+                ERROR_TXT = Success. Forward to IMSSF
+                NORM_TYPE = SIP_URI
+                NORM_USER = 79262164700
+                NORM_HOST = multifon.ru
+               
+TYPE          : CRD 
+DEST          : SCCA
+DEST FUNC     : CRED
+RET DEST      : SAIA
+RET FUNC      : FF87
+CLASS         : 0xb1
+TRANSNUMB     : 38740
+COMPTRANSNUMB : 0
+DATALEN       : 1886 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                ROU1_PORT = 5060
+                VIA1_IP = 10.190.35.4
+                AZ_REALM = BREDBAND
+                CONT1_PORT = 5070
+                AZ_NONCE = MTM2NTYzMTE2NTqAJUY5YR84VH6sezP/lZag
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 21
+                ROU1_DOM = trunk.multifon.ru
+                FROM_TAG = 1337175818
+                TRANS_ID = 71813
+                AZ_QOP = auth
+                ROU1_USER = 89262164700
+                AZ_URI = sip:89262164700@multifon.ru
+                MSG_ID = 0
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700-ecopvfp03hnj0
+                REQ_DOM = multifon.ru
+                SESSION = 4191407
+                AZ_CNONCE = 0a4f113b
+                AZ_ALG = MD5
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                REQ_USER = 89262164700
+                TO_USER = 89262164700
+                TO_TAG = 10B23246313536416E440600
+                CONT1_P1N = transport
+                AZ_SCHEME = Digest
+                AZ_RESP = 141d93359ad133d8d5291e3849f11ab3
+                MSG_TYPE = INVITE
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                AZ_NC = 00000001
+                ROU1_URI = 89262164700@trunk.multifon.ru:5060
+                SUBJECT = Phone call
+                FROM_USER = 79262164700
+                TO_DOM = multifon.ru
+                 SDP = v=0
+o=79262164700 118 118 IN IP4 95.26.89.177
+s=Talk
+c=IN IP4 10.177.94.4
+t=0 0
+m=audio 8622 RTP/AVP 112 111 110 3 0 8 101
+a=rtpmap:112 speex/32000
+a=fmtp:112 vbr=on
+a=rtpmap:111 speex/16000
+a=fmtp:111 vbr=on
+a=rtpmap:110 speex/8000
+a=fmtp:110 vbr=on
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-11
+
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                AZ_USER = 79262164700
+                FROM = sip:79262164700@multifon.ru
+                ROU1_P1N = lr
+                DIALOG = 4850541
+                ROU1_TYPE = SIP_URI
+                ROU1_P1V = 
+                ALLOW = INVITE,ACK,CANCEL,OPTIONS,BYE,REFER,NOTIFY,MESSAGE,SUBSCRIBE,INFO
+                X_CLIENTIP = 95.26.89.177:5060
+                CALL_ID = 1743201666
+                CONT1_TYPE = SIP_URI
+                AZ_OPAQ = MTM2NTYzMTE2NTqAJUY5YR84VH6sezP/lZag
+                  TO = sip:89262164700@multifon.ru
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : CRED
+RET DEST      : SCCA
+RET FUNC      : FD00
+CLASS         : 0xb1
+TRANSNUMB     : 32476
+COMPTRANSNUMB : 0
+DATALEN       : 807 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:25 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                ROU1_PORT = 5081
+                PAS_IP = multifon.ru
+                DONT_COPY = Diversion,X-ClientIP
+                FROM_TYPE = SIP_URI
+                REQ_PORT = 5081
+                PAS_TYPE = SIP_URI
+                FROM_IP = multifon.ru
+                TO_IP = multifon.ru
+                TRANS_ID = 2147483649
+                ROU1_USER = 79262164700
+                REQ_IP = 10.177.141.120
+                ROU2_USER = 79262164700
+                ROU2_P1N = X-CallType
+                SESSION = 4191407
+                ROU2_P1V = SIPOUT
+                REQ_USER = 79262164700
+                TO_USER = 79262164700
+                REF_MSG = 0
+                REF_DLG = 4850541
+                ROU2_P2N = lr
+                ROU2_P2V = 
+                FROM_USER = 79262164700
+                PAS_USER = 79262164700
+                ROU1_IP = 10.177.141.120
+                ROU1_P1N = lr
+                DIALOG = 4850542
+                ROU1_TYPE = SIP_URI
+                ROU1_P1V = 
+                ROU2_TYPE = SIP_URI
+                ROU2_IP = 10.177.141.120
+               
+TYPE          : CRD 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SAIB
+RET FUNC      : 006B
+CLASS         : 0xb1
+TRANSNUMB     : 65085
+COMPTRANSNUMB : 0
+DATALEN       : 1137 
+ISSUED        : Thu Apr 11 01:59:29 2013
+COMPLETED     : Thu Apr 11 01:59:29 2013
+FICS          : ACCEPT1 = application/sdp
+                REQ_TYPE = SIP_URI
+                ACCEPT2 = application/dtmf-relay
+                TO_TYPE = SIP_URI
+                ACCEPT3 = text/plain
+                VIA1_IP = 10.190.35.18
+                REQ_P1N = ttl
+                REQ_P1V = 0
+                CONT1_PORT = 5070
+                EXECNAME = OPTIONS
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 57252
+                REQ_PORT = 5060
+                TO_PORT = 5060
+                FROM_IP = 10.190.35.18
+                TO_P1N = ttl
+                FROM_TAG = 95ffcd055e0f78f7d5d397020e89288d6092715d
+                TO_IP = 10.177.141.120
+                TRANS_ID = 202887
+                TO_P1V = 0
+                MSG_ID = 0
+                REQ_IP = 10.177.141.120
+                CONT1_USER = 10.190.35.18
+                SESSION = 5191571
+                USER_AGENT = Dialogic-SIP/10.5.3.203 IMG2 1
+                REQ_USER = 10.177.141.120
+                TO_USER = 
+                TO_TAG = 3405324631353641C7450600
+                MSG_TYPE = OPTION
+                CONT1_IP = 10.190.35.18
+                APPL = CALL
+                FROM_USER = 
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:@10.190.35.18
+                DIALOG = 5849222
+                VERSION = 0001
+                CALL_ID = 73f1-1e61-024201304823-IMG2-1-10.190.35.18
+                CONT1_TYPE = SIP_URI
+                  TO = sip:@10.177.141.120:5060
+                STATUS = 200
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FD01
+CLASS         : 0xb1
+TRANSNUMB     : 28101
+COMPTRANSNUMB : 0
+DATALEN       : 1061 
+ISSUED        : Thu Apr 11 01:59:25 2013
+COMPLETED     : Thu Apr 11 01:59:29 2013
+FICS          : TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                S_DIALOG = 4850542
+                CONT1_PORT = 5081
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                CSEQ_VAL = 1
+                TO_PORT = 5060
+                STATUS = 183
+                FROM_TAG = 28E132463135364173440600
+                TRANS_ID = 2147483649
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700
+                SESSION = 4191407
+                TO_USER = 79262164700
+                TO_TAG = 668532463135364176440600
+                CONT1_IP = 10.177.141.120
+                S_MSG_ID = 0
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                 SDP = v=0
+o=Dialogic_SDP 18088178 0 IN IP4 10.190.35.17
+s=Dialogic-SIP
+c=IN IP4 10.177.94.17
+t=0 0
+m=audio 8944 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=silenceSupp:off - - - -
+a=ptime:20
+
+                S_MSG_TYPE = INVITE_PROV_RESP
+                VIA1_PORT = 5060
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                ALLOW = OPTIONS,CANCEL
+                CALL_ID = 02037EA5108140000000046C@SFESIP3-id1-ext
+                CONT1_TYPE = SIP_URI
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FD02
+CLASS         : 0xb1
+TRANSNUMB     : 18062
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:59:29 2013
+COMPLETED     : Thu Apr 11 01:59:29 2013
+FICS          : SESSION = 4191407
+                REF_MSG = 0
+                REF_DLG = 4850542
+                DIALOG = 4850541
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FD03
+CLASS         : 0xb1
+TRANSNUMB     : 18054
+COMPTRANSNUMB : 0
+DATALEN       : 812 
+ISSUED        : Thu Apr 11 01:59:29 2013
+COMPLETED     : Thu Apr 11 01:59:29 2013
+FICS          : TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                S_DIALOG = 4850542
+                CONT1_PORT = 5081
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                CSEQ_VAL = 1
+                TO_PORT = 5060
+                STATUS = 180
+                FROM_TAG = 28E132463135364173440600
+                TRANS_ID = 2147483649
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700
+                SESSION = 4191407
+                TO_USER = 79262164700
+                TO_TAG = 668532463135364176440600
+                CONT1_IP = 10.177.141.120
+                S_MSG_ID = 1
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                S_MSG_TYPE = INVITE_PROV_RESP
+                VIA1_PORT = 5060
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                ALLOW = OPTIONS,CANCEL,UPDATE
+                CALL_ID = 02037EA5108140000000046C@SFESIP3-id1-ext
+                CONT1_TYPE = SIP_URI
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FD04
+CLASS         : 0xb1
+TRANSNUMB     : 14989
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:59:29 2013
+COMPLETED     : Thu Apr 11 01:59:29 2013
+FICS          : SESSION = 4191407
+                REF_MSG = 1
+                REF_DLG = 4850542
+                DIALOG = 4850541
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FD05
+CLASS         : 0xb1
+TRANSNUMB     : 7415
+COMPTRANSNUMB : 0
+DATALEN       : 1158 
+ISSUED        : Thu Apr 11 01:59:29 2013
+COMPLETED     : Thu Apr 11 01:59:32 2013
+FICS          : TO_TYPE = SIP_URI
+                VIA1_IP = 10.177.141.120
+                S_DIALOG = 4850542
+                CONT1_PORT = 5081
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                CSEQ_VAL = 1
+                SUPPORTED = 100rel,path,replaces,tdialog
+                TO_PORT = 5060
+                STATUS = 200
+                FROM_TAG = 28E132463135364173440600
+                TRANS_ID = 2147483649
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700
+                SESSION = 4191407
+                TO_USER = 79262164700
+                TO_TAG = 668532463135364176440600
+                CONT1_IP = 10.177.141.120
+                S_MSG_ID = 2
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                 SDP = v=0
+o=Dialogic_SDP 18088178 0 IN IP4 10.190.35.17
+s=Dialogic-SIP
+c=IN IP4 10.177.94.17
+t=0 0
+m=audio 8944 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=silenceSupp:off - - - -
+a=ptime:20
+
+                S_MSG_TYPE = INVITE_2XX
+                VIA1_PORT = 5060
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                ALLOW = PRACK,INVITE,BYE,REGISTER,ACK,OPTIONS,CANCEL,SUBSCRIBE,NOTIFY,INFO,REFER
+                CALL_ID = 02037EA5108140000000046C@SFESIP3-id1-ext
+                CONT1_TYPE = SIP_URI
+                  TO = sip:79262164700@multifon.ru:5060
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1FB
+CLASS         : 0xb1
+TRANSNUMB     : 32668
+COMPTRANSNUMB : 0
+DATALEN       : 157 
+ISSUED        : Thu Apr 11 01:59:32 2013
+COMPLETED     : Thu Apr 11 01:59:32 2013
+FICS          : SESSION = 4191407
+                QNAME = IS_IT_TRUNK
+                  IP = 10.177.141.120
+                PORT = 5081
+                RESULT = 
+                QROWS = 0
+                LASTID = 0
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FD06
+CLASS         : 0xb1
+TRANSNUMB     : 33738
+COMPTRANSNUMB : 0
+DATALEN       : 741 
+ISSUED        : Thu Apr 11 01:59:32 2013
+COMPLETED     : Thu Apr 11 01:59:32 2013
+FICS          : SESSION = 4191407
+                EXECNAME = BOXIT
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 79262164700
+                TO_HOST = multifon.ru
+                  TO = sip:79262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                SIPOUT = 1
+                MODE_A = UNLIMITED
+                X-ACTIVEID = 54308663
+                ANS_TYPE = SIP_URI
+                ANS_USER = 79262164700
+                ANS_HOST = 10.177.141.120
+                ANS_PORT = 5081
+                 ANS = sip:79262164700@10.177.141.120:5081
+                X-TRUNKOUT = -1
+                STATUS = 200
+                ERROR_TXT = Success
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FD07
+CLASS         : 0xb1
+TRANSNUMB     : 7229
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:59:32 2013
+COMPLETED     : Thu Apr 11 01:59:32 2013
+FICS          : SESSION = 4191407
+                REF_MSG = 2
+                REF_DLG = 4850542
+                DIALOG = 4850541
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FD08
+CLASS         : 0xb1
+TRANSNUMB     : 22278
+COMPTRANSNUMB : 0
+DATALEN       : 1268 
+ISSUED        : Thu Apr 11 01:59:32 2013
+COMPLETED     : Thu Apr 11 01:59:32 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                AZ_REALM = BREDBAND
+                VIA1_IP = 10.190.35.4
+                S_DIALOG = 4850541
+                CONT1_PORT = 5070
+                AZ_NONCE = MTM2NTYzMTE2NTqAJUY5YR84VH6sezP/lZag
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                REQ_PORT = 5060
+                CSEQ_VAL = 21
+                FROM_TAG = 1337175818
+                TRANS_ID = 0
+                AZ_QOP = auth
+                AZ_URI = sip:89262164700@multifon.ru
+                REQ_IP = 10.177.141.120
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700-ecopvfp03hnj0
+                SESSION = 4191407
+                AZ_CNONCE = 0a4f113b
+                AZ_ALG = MD5
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                REQ_USER = 89262164700
+                TO_USER = 89262164700
+                CONT1_P1N = transport
+                TO_TAG = 10B23246313536416E440600
+                AZ_SCHEME = Digest
+                AZ_RESP = 141d93359ad133d8d5291e3849f11ab3
+                CONT1_P1V = UDP
+                AZ_NC = 00000001
+                CONT1_IP = 10.190.35.4
+                S_MSG_ID = 1
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                S_MSG_TYPE = ACK
+                VIA1_PORT = 5070
+                AZ_USER = 79262164700
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                X_CLIENTIP = 95.26.89.177:5060
+                CALL_ID = 1743201666
+                CONT1_TYPE = SIP_URI
+                AZ_OPAQ = MTM2NTYzMTE2NTqAJUY5YR84VH6sezP/lZag
+                  TO = sip:89262164700@multifon.ru
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FD09
+CLASS         : 0xb1
+TRANSNUMB     : 21546
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:59:32 2013
+COMPLETED     : Thu Apr 11 01:59:32 2013
+FICS          : SESSION = 4191407
+                REF_MSG = 1
+                REF_DLG = 4850541
+                DIALOG = 4850542
+               
+TYPE          : CRD 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SAIA
+RET FUNC      : FF88
+CLASS         : 0xb1
+TRANSNUMB     : 48718
+COMPTRANSNUMB : 0
+DATALEN       : 993 
+ISSUED        : Thu Apr 11 01:59:37 2013
+COMPLETED     : Thu Apr 11 01:59:37 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                EXECNAME = OPTIONS
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 101
+                REQ_PORT = 5060
+                FROM_IP = 10.197.0.57
+                FROM_TAG = 8B0555F4-20C1
+                TRANS_ID = 202890
+                MSG_ID = 0
+                CONT1_USER = 10.190.35.4
+                REQ_DOM = trunk.multifon.ru
+                SESSION = 4191408
+                USER_AGENT = Cisco-SIPGateway/IOS-12.x
+                REQ_USER = trunk.multifon.ru
+                TO_USER = 
+                TO_TAG = 885E32463135364111490600
+                CONT1_P1N = transport
+                MSG_TYPE = OPTION
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                APPL = CALL
+                FROM_USER = 
+                TO_DOM = trunk.multifon.ru
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:@10.197.0.57
+                DIALOG = 4850543
+                VERSION = 0001
+                X_CLIENTIP = 10.197.0.57:5060
+                CALL_ID = C56A143D-A16011E2-854BF336-588F645@10.197.0.57
+                CONT1_TYPE = SIP_URI
+                  TO = sip:@trunk.multifon.ru
+                STATUS = 200
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : SUPR
+RET DEST      : SCCA
+RET FUNC      : FD0A
+CLASS         : 0xb1
+TRANSNUMB     : 6304
+COMPTRANSNUMB : 0
+DATALEN       : 1350 
+ISSUED        : Thu Apr 11 01:59:32 2013
+COMPLETED     : Thu Apr 11 01:59:42 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                AZ_REALM = BREDBAND
+                VIA1_IP = 10.190.35.4
+                S_DIALOG = 4850541
+                CONT1_PORT = 5070
+                AZ_NONCE = MTM2NTYzMTE2NTqAJUY5YR84VH6sezP/lZag
+                CONT1_EXP = 3600
+                FROM_TYPE = SIP_URI
+                REQ_PORT = 5060
+                CSEQ_VAL = 22
+                CT_SETUP = 4
+                FROM_TAG = 1337175818
+                TRANS_ID = 268427
+                AZ_QOP = auth
+                AZ_URI = sip:89262164700@193.201.229.35:5070;transport=udp
+                REQ_IP = 10.177.141.120
+                FROM_DOM = multifon.ru
+                CONT1_USER = 79262164700-ecopvfp03hnj0
+                SESSION = 4191407
+                AZ_CNONCE = 0a4f113b
+                AZ_ALG = MD5
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                REQ_USER = 89262164700
+                TO_USER = 89262164700
+                CONT1_P1N = transport
+                TO_TAG = 10B23246313536416E440600
+                AZ_SCHEME = Digest
+                AZ_RESP = d83d623034712295dab396a5cc9c110a
+                CT_RINGING = 3
+                CONT1_P1V = UDP
+                CT_ACTIVE = 10
+                AZ_NC = 00000002
+                CONT1_IP = 10.190.35.4
+                S_MSG_ID = 2
+                TO_DOM = multifon.ru
+                FROM_USER = 79262164700
+                S_MSG_TYPE = BYE
+                VIA1_PORT = 5070
+                AZ_USER = 79262164700
+                FROM = sip:79262164700@multifon.ru
+                MSG_TYPES = ANY
+                X_CLIENTIP = 95.26.89.177:5060
+                CALL_ID = 1743201666
+                CONT1_TYPE = SIP_URI
+                AZ_OPAQ = MTM2NTYzMTE2NTqAJUY5YR84VH6sezP/lZag
+                  TO = sip:89262164700@multifon.ru
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : FRWD
+RET DEST      : SCCA
+RET FUNC      : FD0B
+CLASS         : 0xb1
+TRANSNUMB     : 36514
+COMPTRANSNUMB : 0
+DATALEN       : 90 
+ISSUED        : Thu Apr 11 01:59:42 2013
+COMPLETED     : Thu Apr 11 01:59:42 2013
+FICS          : SESSION = 4191407
+                REF_MSG = 2
+                REF_DLG = 4850541
+                DIALOG = 4850542
+               
+TYPE          : CUP 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SCCA
+RET FUNC      : FD0C
+CLASS         : 0xb1
+TRANSNUMB     : 6300
+COMPTRANSNUMB : 0
+DATALEN       : 626 
+ISSUED        : Thu Apr 11 01:59:42 2013
+COMPLETED     : Thu Apr 11 01:59:42 2013
+FICS          : SESSION = 4191407
+                EXECNAME = WRITE_CDR
+                VERSION = 0001
+                APPL = A1
+                USER_AGENT = Linphone/3.5.2 (eXosip2/3.6.0)
+                FROM_TYPE = SIP_URI
+                FROM_USER = 79262164700
+                FROM_HOST = multifon.ru
+                FROM = sip:79262164700@multifon.ru
+                TO_TYPE = SIP_URI
+                TO_USER = 79262164700
+                TO_HOST = multifon.ru
+                  TO = sip:79262164700@multifon.ru
+                MEDIA_TYPE = audio
+                SRC_IP = 95.26.89.177
+                SRC_PORT = 5060
+                SIPOUT = 1
+                MODE_A = UNLIMITED
+                X-ACTIVEID = 54308663
+                X-TRUNKOUT = -1
+                TS_INVITE = 1365631165
+                TS_ANSWER = 1365631172
+                TS_BYE = 1365631182
+               
+TYPE          : CRD 
+DEST          : SAIA
+DEST FUNC     : DELS
+RET DEST      : SCCA
+RET FUNC      : FD0D
+CLASS         : 0xb1
+TRANSNUMB     : 62227
+COMPTRANSNUMB : 0
+DATALEN       : 42 
+ISSUED        : Thu Apr 11 01:59:42 2013
+COMPLETED     : Thu Apr 11 01:59:42 2013
+FICS          : DLGS_LEFT = 0
+                SESSION = 4191407
+               
+TYPE          : CUP 
+DEST          : DTAA
+DEST FUNC     : QUER
+RET DEST      : MBLA
+RET FUNC      : F1FD
+CLASS         : 0xb1
+TRANSNUMB     : 12913
+COMPTRANSNUMB : 0
+DATALEN       : 113 
+ISSUED        : Thu Apr 11 01:59:42 2013
+COMPLETED     : Thu Apr 11 01:59:42 2013
+FICS          : QNAME = REMOVE_TERMINATED_CALL
+                SESSION = 4191407
+                  ID = 54308663
+                LASTID = 54308663
+               
+TYPE          : CRD 
+DEST          : MBLA
+DEST FUNC     : REXC
+RET DEST      : SAIB
+RET FUNC      : 006C
+CLASS         : 0xb1
+TRANSNUMB     : 69466
+COMPTRANSNUMB : 0
+DATALEN       : 994 
+ISSUED        : Thu Apr 11 01:59:44 2013
+COMPLETED     : Thu Apr 11 01:59:44 2013
+FICS          : REQ_TYPE = SIP_URI
+                TO_TYPE = SIP_URI
+                VIA1_IP = 10.190.35.4
+                CONT1_PORT = 5070
+                EXECNAME = OPTIONS
+                FROM_TYPE = SIP_URI
+                CONT1_EXP = 3600
+                CSEQ_VAL = 101
+                REQ_PORT = 5060
+                FROM_IP = 10.197.0.65
+                FROM_TAG = 457A0524-1E38
+                TRANS_ID = 202893
+                MSG_ID = 0
+                CONT1_USER = 10.190.35.4
+                REQ_DOM = trunk.multifon.ru
+                SESSION = 5191572
+                USER_AGENT = Cisco-SIPGateway/IOS-12.x
+                REQ_USER = trunk.multifon.ru
+                TO_USER = 
+                TO_TAG = 06BB324631353641B14B0600
+                CONT1_P1N = transport
+                MSG_TYPE = OPTION
+                CONT1_P1V = UDP
+                CONT1_IP = 10.190.35.4
+                APPL = CALL
+                FROM_USER = 
+                TO_DOM = trunk.multifon.ru
+                TPT_PROT = UDP
+                VIA1_PORT = 5070
+                FROM = sip:@10.197.0.65
+                DIALOG = 5849223
+                VERSION = 0001
+                X_CLIENTIP = 10.197.0.65:5060
+                CALL_ID = C96B269A-A16011E2-B3CFBD5D-F27949D0@10.197.0.65
+                CONT1_TYPE = SIP_URI
+                  TO = sip:@trunk.multifon.ru
+                STATUS = 200
+
+  CHECK TLG LOG FILES FINISHED!
+
